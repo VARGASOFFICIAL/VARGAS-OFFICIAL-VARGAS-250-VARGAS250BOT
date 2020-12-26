@@ -473,7 +473,7 @@ async function starts() {
 						reply('Suksess broadcast')
 					} else {
 						for (let _ of anu) {
-							sendMess(_.jid, `[ Ini Broadcast ]\n\n${body.slice(4)}`)
+							sendMess(_.jid, `〘 *VARGAS_250  BROADCAST* 〙\n\n${body.slice(4)}`)
 						}
 						reply('Suksess broadcast')
 					}
